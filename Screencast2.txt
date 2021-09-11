@@ -1,0 +1,153 @@
+locale:C
+Version:Jul 24 2020  16:11:09
+Public:2020-03-09 13:29:10
+==========================================
+2021-09-11 12:04:01
+==========================================
+Release
+==========================================
+2021-09-10 12:04:01.933 Loader[1351:41435] es_CO
+2021-09-10 12:04:01.933 Loader[1351:41435] es
+2021-09-10 12:04:01.933 Loader[1351:41435] CO
+2021-09-10 12:04:01.933 Loader[1351:41435] Loader
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro9,2
+      Processor Name: Intel Core i5
+      Processor Speed: 2,5 GHz
+      Number of Processors: 1
+      Total Number of Cores: 2
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 3 MB
+      Memory: 8 GB
+      Boot ROM Version: 233.0.0.0.0
+      SMC Version (system): 2.2f44
+      Serial Number (system): C1MKTPL2DTY3
+      Hardware UUID: 320237E1-6CC4-5F04-AB9A-033329F513D0
+      Sudden Motion Sensor:
+          State: Enabled
+
+2021-09-10 12:04:02.441 Loader[1351:41435] Version 10.12.6 (Build 16G2136)
+2021-09-10 12:04:02.441 Loader[1351:41435] Processor count=4
+2021-09-10 12:04:02.441 Loader[1351:41435] Physical memory=8GB
+2021-09-10 12:04:02.441 Loader[1351:41435] (
+    "/Applications/Vidmore Screen Recorder.app/Contents/MacOS/Loader"
+)
+2021-09-10 12:04:02.442 Loader[1351:41435] {
+    "Apple_PubSub_Socket_Render" = "/private/tmp/com.apple.launchd.KzRLtPdxCR/Render";
+    HOME = "/Users/colombiapicturessas";
+    LOGNAME = colombiapicturessas;
+    PATH = "/usr/bin:/bin:/usr/sbin:/sbin";
+    SHELL = "/bin/bash";
+    "SSH_AUTH_SOCK" = "/private/tmp/com.apple.launchd.3TKr8PvHkf/Listeners";
+    TMPDIR = "/var/folders/2z/jjk7z6451ygbjxt26hnd31480000gn/T/";
+    USER = colombiapicturessas;
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "com.vidmore.vidmore-screen-recorder.4004";
+    "__CF_USER_TEXT_ENCODING" = "0x1F5:0x0:0x8";
+}
+2021-09-10 12:04:02.481 Loader[1351:41435] Failed to connect (mainMenu) outlet from (SCAppDelegate) to (NSMenu): missing setter or instance variable
+2021-09-10 12:04:02.489 Loader[1351:41435] Render(0):Intel HD Graphics 4000 OpenGL Engine
+2021-09-10 12:04:02.498 Loader[1351:41435] Render(1):Apple Software Renderer
+2021-09-10 12:04:02.503 Loader[1351:41435]  [Msg] NSOpenGL version: 1.2
+2021-09-10 12:04:02.504 Loader[1351:41435]  [Msg] CGL version: 1.2
+2021-09-10 12:04:02.504 Loader[1351:41435]  [Msg] Running on a Intel HD Graphics 4000 OpenGL Engine from Intel Inc.
+2021-09-10 12:04:02.504 Loader[1351:41435]  [Msg] OpenGL version: 4.1 INTEL-10.25.24
+2021-09-10 12:04:02.504 Loader[1351:41435]  [Msg] Shading language: 4.10
+2021-09-10 12:04:02.591 Loader[1351:41435]  [Msg] Unsupport Hardware codec: HEVC
+2021-09-10 12:04:02.592 Loader[1351:41435]  [Msg] Display0: 0x0-1280x800, Width=1280, Height=800
+2021-09-10 12:04:02.592 Loader[1351:41435]  [Msg] ===============DISPLAY===================
+2021-09-10 12:04:02.592 Loader[1351:41435] {
+    NSDeviceBitsPerSample = 8;
+    NSDeviceColorSpaceName = NSCalibratedRGBColorSpace;
+    NSDeviceIsScreen = YES;
+    NSDeviceResolution = "NSSize: {72, 72}";
+    NSDeviceSize = "NSSize: {1280, 800}";
+    NSScreenNumber = 69677760;
+}
+2021-09-10 12:04:02.593 Loader[1351:41435] <CGDisplayMode 0x608000224b60> [<CFBasicHash 0x60800026eb40 [0x7fffdcb18ee0]>{type = immutable dict, count = 24,
+entries =>
+	0 : <CFString 0x7fffdf90cbf0 [0x7fffdcb18ee0]>{contents = "kCGDisplayModeSuitableForUI"} = <CFBoolean 0x7fffdcb19878 [0x7fffdcb18ee0]>{value = true}
+	3 : <CFString 0x7fffdf90c990 [0x7fffdcb18ee0]>{contents = "BitsPerPixel"} = <CFNumber 0x2027 [0x7fffdcb18ee0]>{value = +32, type = kCFNumberSInt32Type}
+	4 : <CFString 0x7fffdf90c9b0 [0x7fffdcb18ee0]>{contents = "BitsPerSample"} = <CFNumber 0x827 [0x7fffdcb18ee0]>{value = +8, type = kCFNumberSInt32Type}
+	5 : <CFString 0x7fffdf90c9f0 [0x7fffdcb18ee0]>{contents = "RefreshRate"} = <CFNumber 0x57 [0x7fffdcb18ee0]>{value = +0.0, type = kCFNumberFloat64Type}
+	6 : <CFString 0x7fffdf90cb30 [0x7fffdcb18ee0]>{contents = "PixelEncoding"} = <CFString 0x7fffdcac96c0 [0x7fffdcb18ee0]>{contents = "--------RRRRRRRRGGGGGGGGBBBBBBBB"}
+	8 : <CFString 0x7fffdf90cab0 [0x7fffdcb18ee0]>{contents = "kCGDisplayResolution"} = <CFNumber 0x157 [0x7fffdcb18ee0]>{value = +1.00000000000000000000, type = kCFNumberFloat64Type}
+	13 : <CFString 0x7fffdf90caf0 [0x7fffdcb18ee0]>{contents = "kCGDisplayVerticalResolution"} = <CFNumber 0x7227 [0x7fffdcb18ee0]>{value = +114, type = kCFNumberSInt32Type}
+	16 : <CFString 0x7fffdf90cc10 [0x7fffdcb18ee0]>{contents = "UsableForDesktopGUI"} = <CFBoolean 0x7fffdcb19878 [0x7fffdcb18ee0]>{value = true}
+	17 : <CFString 0x7fffdf90cad0 [0x7fffdcb18ee0]>{contents = "kCGDisplayHorizontalResolution"} = <CFNumber 0x7227 [0x7fffdcb18ee0]>{value = +114, type = kCFNumberSInt32Type}
+	18 : <CFString 0x7fffdf90ca10 [0x7fffdcb18ee0]>{contents = "IOFlags"} = <CFNumber 0x200000727 [0x7fffdcb18ee0]>{value = +33554439, type = kCFNumberSInt32Type}
+	21 : <CFString 0x7fffdf90c950 [0x7fffdcb18ee0]>{contents = "Height"} = <CFNumber 0x32027 [0x7fffdcb18ee0]>{value = +800, type = kCFNumberSInt32Type}
+	22 : <CFString 0x7fffdf90ca90 [0x7fffdcb18ee0]>{contents = "kCGDisplayPixelsHigh"} = <CFNumber 0x32027 [0x7fffdcb18ee0]>{value = +800, type = kCFNumberSInt32Type}
+	23 : <CFString 0x7fffdf90ca30 [0x7fffdcb18ee0]>{contents = "kCGDisplayBytesPerRow"} = <CFNumber 0x140027 [0x7fffdcb18ee0]>{value = +5120, type = kCFNumberSInt32Type}
+	24 : <CFString 0x7fffdf90cb70 [0x7fffdcb18ee0]>{contents = "kCGDisplayModeIsInterlaced"} = <CFBoolean 0x7fffdcb19888 [0x7fffdcb18ee0]>{value = false}
+	25 : <CFString 0x7fffdf90cbd0 [0x7fffdcb18ee0]>{contents = "kCGDisplayModeIsUnavailable"} = <CFBoolean 0x7fffdcb19888 [0x7fffdcb18ee0]>{value = false}
+	26 : <CFString 0x7fffdf90ca50 [0x7fffdcb18ee0]>{contents = "IODisplayModeID"} = <CFNumber 0xffffff8000100027 [0x7fffdcb18ee0]>{value = -2147479552, type = kCFNumberSInt32Type}
+	27 : <CFString 0x7fffdf90c9d0 [0x7fffdcb18ee0]>{contents = "SamplesPerPixel"} = <CFNumber 0x327 [0x7fffdcb18ee0]>{value = +3, type = kCFNumberSInt32Type}
+	28 : <CFString 0x7fffdf90ca70 [0x7fffdcb18ee0]>{contents = "kCGDisplayPixelsWide"} = <CFNumber 0x50027 [0x7fffdcb18ee0]>{value = +1280, type = kCFNumberSInt32Type}
+	30 : <CFString 0x7fffdf90c930 [0x7fffdcb18ee0]>{contents = "Width"} = <CFNumber 0x50027 [0x7fffdcb18ee0]>{value = +1280, type = kCFNumberSInt32Type}
+	31 : <CFString 0x7fffdf90cb90 [0x7fffdcb18ee0]>{contents = "kCGDisplayModeIsStretched"} = <CFBoolean 0x7fffdcb19888 [0x7fffdcb18ee0]>{value = false}
+	33 : <CFString 0x7fffdf90c970 [0x7fffdcb18ee0]>{contents = "Mode"} = <CFNumber 0x27 [0x7fffdcb18ee0]>{value = +0, type = kCFNumberSInt32Type}
+	34 : <CFString 0x7fffdf90cc30 [0x7fffdcb18ee0]>{contents = "kCGDisplayModeIsSafeForHardware"} = <CFBoolean 0x7fffdcb19878 [0x7fffdcb18ee0]>{value = true}
+	36 : <CFString 0x7fffdf90cbb0 [0x7fffdcb18ee0]>{contents = "kCGDisplayModeIsTelevisionOutput"} = <CFBoolean 0x7fffdcb19888 [0x7fffdcb18ee0]>{value = false}
+	37 : <CFString 0x7fffdf90cb10 [0x7fffdcb18ee0]>{contents = "DepthFormat"} = <CFNumber 0x427 [0x7fffdcb18ee0]>{value = +4, type = kCFNumberSInt32Type}
+}
+] 
+2021-09-10 12:04:02.593 Loader[1351:41435]  [Msg] ==========================================
+2021-09-10 12:04:02.597 Loader[1351:41435]  [Msg] ===============SCREENS===================
+2021-09-10 12:04:02.598 Loader[1351:41435]  [Msg] 1, Name=Color LCD, Display={0x0-1280x800}(1280x800), Screen={0x0-1280x800}(1280x800)
+2021-09-10 12:04:02.598 Loader[1351:41435]  [Msg] ==========================================
+2021-09-10 12:04:02.598 Loader[1351:41435]  [Msg] Use Display 0
+Display={0x0-1280x800}(1280x800)
+Screen={0x0-1280x800}(1280x800)
+ScaleFactor=1
+Display resolution=1280x800
+2021-09-10 12:04:02.656 Loader[1351:41435]  [Msg] ===============VIDEO CAPTURES===================
+2021-09-10 12:04:02.656 Loader[1351:41435]  [Msg] 1, Name=[C√°mara FaceTime HD (integrada)], Device UID=0x1a11000005ac8509
+2021-09-10 12:04:02.656 Loader[1351:41435]  [Msg] =============================================
+2021-09-10 12:04:02.659 Loader[1351:41435]  [Msg] Use Display 0
+Display={0x0-1280x800}(1280x800)
+Screen={0x0-1280x800}(1280x800)
+ScaleFactor=1
+Display resolution=1280x800
+2021-09-10 12:04:02.714 Loader[1351:41435]  [Msg] Use Display 0
+Display={0x0-1280x800}(1280x800)
+Screen={0x0-1280x800}(1280x800)
+ScaleFactor=1
+Display resolution=1280x800
+2021-09-10 12:04:16.588 Loader[1351:41435]  [Msg] Screen Crop ...
+2021-09-10 12:04:16.588 Loader[1351:41435]  [Msg] Create Object:CScreenCropObject(0x7fda19d69fe0)
+2021-09-10 12:04:16.602 Loader[1351:41435]  [Msg] Call:CScreenCropBox, this=0x7fda19d69fe0
+2021-09-10 12:04:16.669 Loader[1351:41435]  [Msg] ---------------------Audio devices---------------------
+2021-09-10 12:04:16.671 Loader[1351:41435]  [Msg] 1: 40=[AP Extended Audio Driver] [Render][Capture], UID=[AP Extended Audio Driver] Transport type=Virtual
+2021-09-10 12:04:16.672 Loader[1351:41435]  [Msg] 2: 44=[Built-in Microphone] , UID=[AppleHDAEngineInput:1B,0,1,0:1] Transport type=BuiltIn
+2021-09-10 12:04:16.672 Loader[1351:41435]  [Msg] 3: 51=[Built-in Output] [Render][Capture], UID=[AppleHDAEngineOutput:1B,0,1,1:0] Transport type=BuiltIn
+2021-09-10 12:04:16.672 Loader[1351:41435]  [Msg] ---------------------Audio devices---------------------
+2021-09-10 12:04:16.676 Loader[1351:41435]  [Msg] XPC: GetOutputDevice...
+2021-09-10 12:04:16.676 Loader[1351:41435]  [Msg] XPC: OK.
+2021-09-10 12:04:16.676 Loader[1351:41435]  [Msg] ---------------------Audio devices---------------------
+2021-09-10 12:04:16.676 Loader[1351:41435]  [Msg] 1: 40=[AP Extended Audio Driver] [Render][Capture], UID=[AP Extended Audio Driver] Transport type=Virtual
+2021-09-10 12:04:16.677 Loader[1351:41435]  [Msg] 2: 44=[Built-in Microphone] , UID=[AppleHDAEngineInput:1B,0,1,0:1] Transport type=BuiltIn
+2021-09-10 12:04:16.677 Loader[1351:41435]  [Msg] 3: 51=[Built-in Output] [Render][Capture], UID=[AppleHDAEngineOutput:1B,0,1,1:0] Transport type=BuiltIn
+2021-09-10 12:04:16.678 Loader[1351:41435]  [Msg] ---------------------Audio devices---------------------
+2021-09-10 12:04:16.681 Loader[1351:41435]  [Msg] XPC: GetOutputDevice...
+2021-09-10 12:04:16.681 Loader[1351:41435]  [Msg] XPC: OK.
+2021-09-10 12:04:16.681 Loader[1351:41435]  [Msg] ---------------------Audio devices---------------------
+2021-09-10 12:04:16.681 Loader[1351:41435]  [Msg] 1: 40=[AP Extended Audio Driver] [Render][Capture], UID=[AP Extended Audio Driver] Transport type=Virtual
+2021-09-10 12:04:16.682 Loader[1351:41435]  [Msg] 2: 44=[Built-in Microphone] , UID=[AppleHDAEngineInput:1B,0,1,0:1] Transport type=BuiltIn
+2021-09-10 12:04:16.682 Loader[1351:41478]  [Msg] GetOutputDevice=AppleHDAEngineOutput:1B,0,1,1:0
+2021-09-10 12:04:16.682 Loader[1351:41478]  [Msg] GetOutputDevice=AppleHDAEngineOutput:1B,0,1,1:0
+2021-09-10 12:04:16.682 Loader[1351:41435]  [Msg] 3: 51=[Built-in Output] [Render][Capture], UID=[AppleHDAEngineOutput:1B,0,1,1:0] Transport type=BuiltIn
+2021-09-10 12:04:16.682 Loader[1351:41435]  [Msg] ---------------------Audio devices---------------------
+2021-09-10 12:04:16.685 Loader[1351:41435]  [Msg] XPC: GetOutputDevice...
+2021-09-10 12:04:16.685 Loader[1351:41435]  [Msg] XPC: OK.
+2021-09-10 12:04:16.686 Loader[1351:41478]  [Msg] GetOutputDevice=AppleHDAEngineOutput:1B,0,1,1:0
+2021-09-10 12:14:43.850 Loader[1351:41435]  [Msg] Call:~CScreenCropBox, this=0x7fda19d69fe0
+2021-09-10 12:14:43.885 Loader[1351:41435]  [Msg] Screen Crop ...
+2021-09-10 12:14:43.885 Loader[1351:41435]  [Msg] Create Object:CScreenCropObject(0x7fda19cf9230)
+2021-09-10 12:14:43.895 Loader[1351:41435]  [Msg] Call:CScreenCropBox, this=0x7fda19cf9230
+2021-09-10 12:14:47.490 Loader[1351:41435]  [Msg] Call:~CScreenCropBox, this=0x7fda19cf9230
+2021-09-10 13:56:10.582 Loader[1351:41435] Uninitialize screencast core.
