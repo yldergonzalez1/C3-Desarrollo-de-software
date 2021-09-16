@@ -5,3 +5,5 @@ This is the "first" commit that was put into graphics mode!
 Now, I will alter this file now!
 
 I did write this file on live, catch me!
+
+My name is Dewin Acosta, and this is the latest commit from this file!
