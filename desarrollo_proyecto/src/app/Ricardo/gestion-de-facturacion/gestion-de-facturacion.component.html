@@ -1,0 +1,120 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Facturación</title>
+    <!--<link type="text/css" rel="stylesheet" href="styles.css">.-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <main>
+        <div class="titulo"><h1>Gestión de Facturación</h1></div>
+        <div class="infoCard">        
+            <div class="containerImg">
+                <img class="imgUsuario" src="https://colombiapictures.co/wp-content/uploads/2021/10/usuario.jpg" alt="avatar">
+            </div>
+            <div class="infoCliente">
+                <table>
+                    <tr><th><strong>Nombre:</strong></th>
+                        <td>Ricardo Schortbogh</td></tr>
+                    <th><strong>Id:</strong></th>
+                        <td>1050975848</td>
+                    <tr><strong>Rol:</strong></tr>
+                        <td>Administrador</td>
+                </table>
+            </div>        
+            <nav class="menuBar">
+                <ul>
+                    <li><a class="active" href="#facturar">Facturar</a></li>
+                    <li><a href="#Consultar">Consultar</a></li>
+                </ul>
+            </nav>
+        
+            
+            <div class="separador"><hr width="1" size="500"></div>
+            <div class="containerff">        
+                <div class="fecha">
+                    <label for="">Fecha:</label><input type="date" name="fecha">
+                </div>
+                <div class="nroFactura">
+                    <label for="">No. de factura</label>
+                    <input type="number"> 
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container">            
+            <div class="listProductos">
+                <select name="select">
+                    <option value="value1">Producto Generico</option>
+                    <option value="value2" >Producto Generico</option>
+                    <option value="value3">Producto Generico</option>
+                    <option value="value4"selected>Seleccione Productos</option>
+                </select>
+            </div>
+            <div class="cantidad">
+                <label for="">Cantidad</label>
+                <input type="number"> 
+            </div>
+            <div class="precioUnitario">
+                <div class="cjaPrecio">
+                    <label for="">Precio unitario</label>
+                    <input type="text" name="" id="">
+                </div>
+            </div>
+            <div class="btnInsertar">
+                <input class="boton" type="button" value="Insertar" >
+            </div>
+        </div>
+        <table class="tablainfo">
+            <tr>          
+            <th>Id</th>          
+            <th>Producto</th>          
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Subtotal</th> 
+            <th>Editar</th>
+            <th>Eliminar</th>         
+            </tr>          
+            <tr>          
+            <td>1</td>
+            <td>Arroz frances</td>          
+            <td>4</td>
+            <td>1000</td>
+            <td>4000</td>
+            <td><i class="fas fa-pencil-alt"></i></td>
+            <td><i class="far fa-times-circle"> </i> </td>
+            
+            </tr>
+            <tr>          
+                <td>2</td>
+                <td>Arroz italiano</td>          
+                <td>4</td>
+                <td>5000</td>
+                <td>20000</td>
+                <td><i class="fas fa-pencil-alt"></i></td>
+                <td><i class="far fa-times-circle"> </i> </td>
+            </tr>
+
+            <tr>          
+                <td>3</td>
+                <td>Arroz Colombiano</td>          
+                <td>5</td>
+                <td>1000</td>
+                <td>5000</td>
+                <td><i class="fas fa-pencil-alt"></i></td>
+                <td><i class="far fa-times-circle"> </i> </td>
+            </tr>
+            </table>
+            <div class="precioTotal">
+                <div class="cjaPrecioTotal">
+                    <label for="">Precio Total:</label>                
+                    <input type="text" name="" id="">
+                </div>
+            </div>
+            <div class="botones">
+                <div><input class="boton" type="submit" value="Guardar"></div>
+                <div><input class="boton"type="button" value="Guardar e imprimir"></div>
+            </div>
+    </main>    
+</body>

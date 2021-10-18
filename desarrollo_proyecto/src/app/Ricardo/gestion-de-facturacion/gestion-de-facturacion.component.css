@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	
+}
+body{
+    margin: 1.5em 3em 3em 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    text-align: center;
+    
+}
+label{
+    font-weight: bold;
+}
+
+.imgUsuario{
+    width: 3em;
+    height: 3em;
+}
+.infoCard{
+    margin-top: 2em;
+    display: flex;
+        
+        
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.menuBar{
+    margin-top: 180px;
+    margin-left: -250px;
+}
+.infoCliente table{
+    padding-bottom: 10px;
+    font-size: 1 em;
+
+}
+
+
+.infoCliente table tr th{
+    padding-right: 20px;
+}
+
+.separador{
+    display:inline-block;
+    margin-left: 4em;
+    border-left: solid #000000;
+}
+.container{
+    display: inline-block;
+    display: flex;
+    margin-left: 22em;
+    margin-top: -27em;
+}
+.container div{
+    margin-left: 1.5em;
+}
+.fecha{
+    display: inline-block;
+}
+
+.containerff{
+    margin-left: 5em;
+    
+          
+}
+
+.nroFactura{
+    display: inline-block;
+    margin-left: 5em;
+}
+
+.btnInsertar  {
+    margin-right: 30em;
+    align-items: flex-start;
+}
+.tablainfo{     
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    margin: 45px;     width: 480px; text-align: left;    border-collapse: collapse; 
+    text-align: center;
+    margin-left: 40em;    
+}
+
+.tablainfo th {
+    font-size: 13px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; 
+    
+}
+
+.tablainfo td {
+    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent;
+}
+
+.tablainfo tr:hover td { background: #d0dafd; color: #339; }
+
+i{
+    font-size: 20px;
+}
+.fas.fa-pencil-alt{
+    color: green;
+}
+
+.far.fa-times-circle{
+    color: red;
+}
+.cantidad{
+    text-align: center;
+}
+
+.cantidad input{
+    width: 3em;
+}
+.cjaPrecio{
+    text-align: center;
+}
+.cjaPrecio input{
+    width: 10em;
+}
+.precioTotal{
+    margin-left: 45em;
+}
+.cjaPrecioTotal input{
+    width: 10em;
+}
+.botones{
+    display: inline-flex;
+    margin-left: 45em;
+    margin-top: 5em;
+}
+
+.boton{
+    margin-left: 1em;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #f44336;
+    color: white;
+}
