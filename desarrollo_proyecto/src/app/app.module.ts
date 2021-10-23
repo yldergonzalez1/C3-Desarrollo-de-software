@@ -3,20 +3,27 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GestionDeUsuariosInicioDeSesionComponent } from './funcion_Ylder/gestion-de-usuarios-inicio-de-sesion/gestion-de-usuarios-inicio-de-sesion.component';
-import { LandingPageComponent } from './funcion_landing/landing-page/landing-page.component';
-//Rutas para menú de navegación
-//import {app_routing} from "./app.routes";
+import { GestionDeUsuariosComponent } from './Johana/gestion-de-usuarios/gestion-de-usuarios.component';
+import { GestionDeFacturacionComponent } from './Ricardo/gestion-de-facturacion/gestion-de-facturacion.component';
+import { GestionDeCotizacionesComponent } from './Santiago/gestion-de-cotizaciones/gestion-de-cotizaciones.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GestionDeUsuariosInicioDeSesionComponent,
-    LandingPageComponent
+    GestionDeUsuariosComponent,
+    GestionDeFacturacionComponent,
+    GestionDeCotizacionesComponent,
+    InicioComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
